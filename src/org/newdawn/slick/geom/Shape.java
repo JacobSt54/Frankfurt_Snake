@@ -14,9 +14,9 @@ public abstract class Shape implements Serializable {
     /** Center point of the polygon. */
     protected float center[];
     /** The left most point of this shape. */
-    protected float x;
+    public float x;
     /** The top most point of this shape. */
-    protected float y;
+    public float y;
     /** The right most point of this shape */
     protected float maxX;
     /** The bottom most point of this shape */
